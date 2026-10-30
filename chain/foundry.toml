@@ -1,0 +1,30 @@
+[profile.default]
+src = "contracts"
+out = "forge-out"
+test = "test"
+libs = ["lib"]
+remappings = ["forge-std/=lib/forge-std/src/"]
+
+# Robinhood Chain is an Arbitrum Orbit L2: standard EVM, but it enforces the
+# EIP-170 24KB code cap, so anything deployed there has to fit under it. Paris
+# because Orbit chains do not implement the Cancun opcodes.
+evm_version = "paris"
+solc_version = "0.8.24"
+via_ir = true
+optimizer = true
+# Tuned for size rather than for gas. `FightCardCLOB` is the constraint — it
+# lands around 21.7KB of the 24.5KB cap, and turning this up puts it over.
+optimizer_runs = 1
+
+# The conservation stress test walks a whole card through thousands of fills.
+gas_limit = 1_000_000_000
+fuzz.runs = 256
+
+fs_permissions = [
+    { access = "read-write", path = "test/output" },
+    { access = "read-write", path = "deployments" },
+]
+
+[rpc_endpoints]
+robinhood = "${ROBINHOOD_RPC_URL}"
+robinhoodTestnet = "${ROBINHOOD_TESTNET_RPC_URL}"

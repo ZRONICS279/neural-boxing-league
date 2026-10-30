@@ -1,0 +1,729 @@
+{
+ "time": 3.6,
+ "bodies": {
+  "blue": {
+   "pelvis": {
+    "position": [
+     -0.388323,
+     -0.097646,
+     0.87193
+    ],
+    "quaternion": [
+     0.999389,
+     -0.023468,
+     0.019911,
+     -0.016571
+    ]
+   },
+   "abdomen": {
+    "position": [
+     -0.383852,
+     -0.09255,
+     0.981921
+    ],
+    "quaternion": [
+     0.99939,
+     -0.032411,
+     0.009164,
+     -0.009282
+    ]
+   },
+   "chest": {
+    "position": [
+     -0.379115,
+     -0.076371,
+     1.231753
+    ],
+    "quaternion": [
+     0.99939,
+     -0.032411,
+     0.009164,
+     -0.009282
+    ]
+   },
+   "head": {
+    "position": [
+     -0.372012,
+     -0.050474,
+     1.631551
+    ],
+    "quaternion": [
+     0.99942,
+     -0.032407,
+     0.007393,
+     -0.007389
+    ]
+   },
+   "left_thigh": {
+    "position": [
+     -0.384944,
+     0.007174,
+     0.866935
+    ],
+    "quaternion": [
+     0.998975,
+     0.009567,
+     -0.04225,
+     -0.013152
+    ]
+   },
+   "left_shin": {
+    "position": [
+     -0.252058,
+     0.011494,
+     0.486135
+    ],
+    "quaternion": [
+     0.998625,
+     0.010736,
+     0.049829,
+     -0.012216
+    ]
+   },
+   "left_foot": {
+    "position": [
+     -0.365543,
+     0.022099,
+     0.104959
+    ],
+    "quaternion": [
+     0.999832,
+     -0.01059,
+     0.008248,
+     -0.012486
+    ]
+   },
+   "right_thigh": {
+    "position": [
+     -0.391703,
+     -0.202466,
+     0.876924
+    ],
+    "quaternion": [
+     0.998303,
+     0.054592,
+     0.017434,
+     -0.010306
+    ]
+   },
+   "right_shin": {
+    "position": [
+     -0.484897,
+     -0.158244,
+     0.491669
+    ],
+    "quaternion": [
+     0.997906,
+     0.054747,
+     0.033121,
+     -0.009447
+    ]
+   },
+   "right_foot": {
+    "position": [
+     -0.450362,
+     -0.116225,
+     0.100133
+    ],
+    "quaternion": [
+     0.999936,
+     3.4e-05,
+     1.2e-05,
+     -0.011306
+    ]
+   },
+   "left_upper_arm": {
+    "position": [
+     -0.371532,
+     0.157221,
+     1.407215
+    ],
+    "quaternion": [
+     0.998995,
+     -0.029789,
+     0.030818,
+     -0.013134
+    ]
+   },
+   "left_forearm": {
+    "position": [
+     -0.293974,
+     0.140751,
+     1.16616
+    ],
+    "quaternion": [
+     0.998469,
+     -0.030404,
+     0.044194,
+     -0.013497
+    ]
+   },
+   "left_glove": {
+    "position": [
+     -0.134319,
+     0.147494,
+     1.337423
+    ],
+    "quaternion": [
+     0.998453,
+     -0.030424,
+     0.044386,
+     -0.014014
+    ]
+   },
+   "right_upper_arm": {
+    "position": [
+     -0.379498,
+     -0.285371,
+     1.436027
+    ],
+    "quaternion": [
+     0.984929,
+     0.024397,
+     -0.127173,
+     0.114656
+    ]
+   },
+   "right_forearm": {
+    "position": [
+     -0.234548,
+     -0.246806,
+     1.231342
+    ],
+    "quaternion": [
+     0.945801,
+     -0.100788,
+     0.276533,
+     0.137228
+    ]
+   },
+   "right_glove": {
+    "position": [
+     -0.026552,
+     -0.168209,
+     1.305008
+    ],
+    "quaternion": [
+     0.948572,
+     -0.099567,
+     0.267086,
+     0.137707
+    ]
+   }
+  },
+  "red": {
+   "pelvis": {
+    "position": [
+     0.378383,
+     0.089225,
+     0.853427
+    ],
+    "quaternion": [
+     0.041331,
+     -0.00722,
+     -0.010986,
+     0.999059
+    ]
+   },
+   "abdomen": {
+    "position": [
+     0.376741,
+     0.086938,
+     0.96049
+    ],
+    "quaternion": [
+     0.027257,
+     0.00643,
+     -0.013478,
+     0.999517
+    ]
+   },
+   "chest": {
+    "position": [
+     0.379692,
+     0.080292,
+     1.203881
+    ],
+    "quaternion": [
+     0.027257,
+     0.00643,
+     -0.013478,
+     0.999517
+    ]
+   },
+   "head": {
+    "position": [
+     0.386745,
+     0.069528,
+     1.593254
+    ],
+    "quaternion": [
+     0.028026,
+     0.015662,
+     -0.013731,
+     0.99939
+    ]
+   },
+   "left_thigh": {
+    "position": [
+     0.369737,
+     -0.015287,
+     0.851062
+    ],
+    "quaternion": [
+     0.040606,
+     0.021011,
+     -0.024695,
+     0.998649
+    ]
+   },
+   "left_shin": {
+    "position": [
+     0.257568,
+     0.011892,
+     0.476343
+    ],
+    "quaternion": [
+     0.041455,
+     -0.014369,
+     -0.023242,
+     0.998767
+    ]
+   },
+   "left_foot": {
+    "position": [
+     0.34192,
+     0.022979,
+     0.099065
+    ],
+    "quaternion": [
+     0.041152,
+     -0.000669,
+     -0.013703,
+     0.999059
+    ]
+   },
+   "right_thigh": {
+    "position": [
+     0.387029,
+     0.193737,
+     0.855792
+    ],
+    "quaternion": [
+     0.033349,
+     -0.002847,
+     0.054405,
+     0.997958
+    ]
+   },
+   "right_shin": {
+    "position": [
+     0.465535,
+     0.147262,
+     0.478972
+    ],
+    "quaternion": [
+     0.030669,
+     -0.051288,
+     0.055959,
+     0.996643
+    ]
+   },
+   "right_foot": {
+    "position": [
+     0.445076,
+     0.106938,
+     0.097378
+    ],
+    "quaternion": [
+     0.033632,
+     -0.000194,
+     0.000132,
+     0.999434
+    ]
+   },
+   "left_upper_arm": {
+    "position": [
+     0.369968,
+     -0.143252,
+     1.382978
+    ],
+    "quaternion": [
+     0.03781,
+     -0.026771,
+     -0.014219,
+     0.998825
+    ]
+   },
+   "left_forearm": {
+    "position": [
+     0.294011,
+     -0.130507,
+     1.152146
+    ],
+    "quaternion": [
+     0.037922,
+     -0.01947,
+     -0.003729,
+     0.999084
+    ]
+   },
+   "left_glove": {
+    "position": [
+     0.149664,
+     -0.121097,
+     1.323981
+    ],
+    "quaternion": [
+     0.039487,
+     -0.023975,
+     -0.003595,
+     0.998926
+    ]
+   },
+   "right_upper_arm": {
+    "position": [
+     0.393899,
+     0.293738,
+     1.39462
+    ],
+    "quaternion": [
+     -0.004,
+     0.048705,
+     0.016303,
+     0.998672
+    ]
+   },
+   "right_forearm": {
+    "position": [
+     0.283608,
+     0.285703,
+     1.177856
+    ],
+    "quaternion": [
+     -0.009041,
+     -0.154629,
+     0.003527,
+     0.987925
+    ]
+   },
+   "right_glove": {
+    "position": [
+     0.098145,
+     0.283829,
+     1.30455
+    ],
+    "quaternion": [
+     -0.007864,
+     -0.151494,
+     0.003377,
+     0.988421
+    ]
+   }
+  }
+ },
+ "contacts": {
+  "blue": {
+   "groundForces": {
+    "left": 217.5801,
+    "right": 504.72
+   },
+   "gloveForces": {
+    "left": 0.0,
+    "right": 176.7098
+   },
+   "headForce": 0.0,
+   "bodyForce": 0.0,
+   "centerOfMass": [
+    -0.362893,
+    -0.072928,
+    0.997341
+   ]
+  },
+  "red": {
+   "groundForces": {
+    "left": 218.11,
+    "right": 464.2978
+   },
+   "gloveForces": {
+    "left": 176.7098,
+    "right": 0.0
+   },
+   "headForce": 0.0,
+   "bodyForce": 0.0,
+   "centerOfMass": [
+    0.362734,
+    0.080181,
+    0.975212
+   ]
+  }
+ },
+ "tactics": {
+  "blue": {
+   "command": {
+    "advance": 0.55,
+    "retreat": 0.0,
+    "circle": 0.28,
+    "pivot": 0.0,
+    "guard": 0.72,
+    "head_movement": 0.0,
+    "level_change": 0.0,
+    "jab": 0.0,
+    "cross": 0.85,
+    "hook": 0.0,
+    "body_target": 0.7,
+    "urgency": 0.68
+   },
+   "perceivedThreat": 0.0,
+   "survivalInstinct": 0.0,
+   "recentImpactMemory": [
+    0.0,
+    0.0,
+    0.025757
+   ],
+   "fastInterrupt": false,
+   "perceptionLatencyMs": 80
+  },
+  "red": {
+   "command": {
+    "advance": 0.55,
+    "retreat": 0.0,
+    "circle": -0.28,
+    "pivot": -0.0,
+    "guard": 0.72,
+    "head_movement": 0.0,
+    "level_change": 0.0,
+    "jab": 0.0,
+    "cross": 0.85,
+    "hook": 0.0,
+    "body_target": 0.7,
+    "urgency": 0.68
+   },
+   "perceivedThreat": 0.0,
+   "survivalInstinct": 0.0,
+   "recentImpactMemory": [
+    0.0,
+    0.095613,
+    0.130515
+   ],
+   "fastInterrupt": false,
+   "perceptionLatencyMs": 100
+  }
+ },
+ "projectiles": [
+  {
+   "id": "drill_ball_0",
+   "position": [
+    0.0,
+    0.0,
+    -66.533484
+   ],
+   "velocity": [
+    0.0,
+    0.0,
+    -35.316
+   ],
+   "active": false,
+   "targetSide": "blue",
+   "hit": false
+  },
+  {
+   "id": "drill_ball_1",
+   "position": [
+    0.0,
+    0.0,
+    -67.533484
+   ],
+   "velocity": [
+    0.0,
+    0.0,
+    -35.316
+   ],
+   "active": false,
+   "targetSide": "blue",
+   "hit": false
+  },
+  {
+   "id": "drill_ball_2",
+   "position": [
+    0.0,
+    0.0,
+    -68.533484
+   ],
+   "velocity": [
+    0.0,
+    0.0,
+    -35.316
+   ],
+   "active": false,
+   "targetSide": "blue",
+   "hit": false
+  },
+  {
+   "id": "drill_ball_3",
+   "position": [
+    0.0,
+    0.0,
+    -69.533484
+   ],
+   "velocity": [
+    0.0,
+    0.0,
+    -35.316
+   ],
+   "active": false,
+   "targetSide": "blue",
+   "hit": false
+  }
+ ],
+ "projectileDrill": {
+  "blue": {
+   "hits": 0,
+   "dodges": 0,
+   "deflections": 0,
+   "hit_impulse_ns": 0.0,
+   "head_impulse_ns": 0.0,
+   "body_impulse_ns": 0.0,
+   "peak_force_n": 0.0,
+   "incoming_speed_mps": 0.0,
+   "clearance_gain_m": 0.0,
+   "timely_responses": 0,
+   "wrong_way_responses": 0,
+   "recoverySeconds": 0.0
+  },
+  "red": {
+   "hits": 0,
+   "dodges": 0,
+   "deflections": 0,
+   "hit_impulse_ns": 0.0,
+   "head_impulse_ns": 0.0,
+   "body_impulse_ns": 0.0,
+   "peak_force_n": 0.0,
+   "incoming_speed_mps": 0.0,
+   "clearance_gain_m": 0.0,
+   "timely_responses": 0,
+   "wrong_way_responses": 0,
+   "recoverySeconds": 0.0
+  }
+ },
+ "projectileAttempts": {
+  "blue": [],
+  "red": []
+ },
+ "projectileRound": 0,
+ "projectileCourseSeed": 51,
+ "physiology": {
+  "blue": {
+   "stamina": 0.867871,
+   "guardStability": 0.983374,
+   "equilibrium": 1.0,
+   "activeControl": 1.0,
+   "jointFatigue": 0.002118,
+   "neurologicalLoad": 0.0,
+   "bodyShock": 0.0,
+   "stunSeconds": 0.0,
+   "knockout": false,
+   "knockoutCause": "none"
+  },
+  "red": {
+   "stamina": 0.858391,
+   "guardStability": 0.964914,
+   "equilibrium": 0.995636,
+   "activeControl": 0.996683,
+   "jointFatigue": 0.003417,
+   "neurologicalLoad": 0.0,
+   "bodyShock": 0.0,
+   "stunSeconds": 0.0,
+   "knockout": false,
+   "knockoutCause": "none"
+  }
+ },
+ "impacts": {
+  "blue": {
+   "head_impulse_ns": 0.0,
+   "body_impulse_ns": 0.0,
+   "guard_impulse_ns": 4.146152170714742,
+   "glancing_impulse_ns": 1.9425655272847802,
+   "peak_force_n": 697.2394371780724,
+   "kinetic_energy_j": 0.9040451491275502,
+   "head_energy_j": 0.0,
+   "body_energy_j": 0.0,
+   "closing_velocity_mps": 1.0868363245722517,
+   "effective_mass_kg": 5.304948661290844,
+   "directness": 0.9237315760750949,
+   "rotational_transfer": 0.49758309908552834,
+   "rotational_impulse_nms": 0.0,
+   "neurological_load": 0.0,
+   "body_shock": 0.0,
+   "guard_absorption": 0.9319999999999999,
+   "counter": true,
+   "power_shot": false,
+   "target": "guard",
+   "anatomical_zone": "guard",
+   "strike_kind": "cross",
+   "glove": "right",
+   "impact_point": [
+    0.05859260870517079,
+    -0.14624799636453042,
+    1.3220816970648535
+   ],
+   "trajectory": [
+    0.7958882649829537,
+    0.5711106137903442,
+    -0.20098392094503442
+   ]
+  },
+  "red": {
+   "head_impulse_ns": 0.0,
+   "body_impulse_ns": 0.0,
+   "guard_impulse_ns": 0.0,
+   "glancing_impulse_ns": 0.0,
+   "peak_force_n": 0.0,
+   "kinetic_energy_j": 0.0,
+   "head_energy_j": 0.0,
+   "body_energy_j": 0.0,
+   "closing_velocity_mps": 0.0,
+   "effective_mass_kg": 0.0,
+   "directness": 0.0,
+   "rotational_transfer": 0.0,
+   "rotational_impulse_nms": 0.0,
+   "neurological_load": 0.0,
+   "body_shock": 0.0,
+   "guard_absorption": 0.0,
+   "counter": false,
+   "power_shot": false,
+   "target": "none",
+   "anatomical_zone": "none",
+   "strike_kind": "none",
+   "glove": "none",
+   "impact_point": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trajectory": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "strikes": {
+  "blue": {
+   "kind": "cross",
+   "arm": "right",
+   "phase": 0.5715165956273017,
+   "drive": 0.917132473884407,
+   "completed": false,
+   "cooldown": 0.0
+  },
+  "red": {
+   "kind": "cross",
+   "arm": "right",
+   "phase": 1.0,
+   "drive": 0.0,
+   "completed": true,
+   "cooldown": 0.1
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "forge-league",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
+    "dev:lan": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev --hostname 0.0.0.0",
+    "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
+    "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
+    "test": "npm run build && node --experimental-strip-types --test tests/*.test.*",
+    "test:physics": "PYTHONPATH=sim3d .venv/bin/python -m unittest discover -s sim3d/tests -v",
+    "chain:test": "cd chain && forge test",
+    "chain:sizes": "cd chain && forge build --sizes",
+    "sim3d:serve": "PYTHONPATH=sim3d .venv/bin/python -m forge_sim.service",
+    "sim3d:train": "PYTHONPATH=sim3d .venv/bin/python -m forge_sim.service --train",
+    "sim3d:ppo": "PYTHONPATH=sim3d .venv/bin/python -m forge_sim.ppo_training",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .venv",
+    "db:generate": "drizzle-kit generate",
+    "market:sim": "node --experimental-strip-types scripts/market-sim.ts",
+    "market:drain": "node --experimental-strip-types scripts/drain-stale-orders.ts",
+    "migration:manifest": "node --experimental-strip-types scripts/migrate-d1.ts manifest",
+    "migration:export": "node --experimental-strip-types scripts/migrate-d1.ts export",
+    "migration:export-core": "node --experimental-strip-types scripts/migrate-d1.ts export-core",
+    "migration:freeze": "node --experimental-strip-types scripts/migrate-d1.ts freeze",
+    "migration:unfreeze": "node --experimental-strip-types scripts/migrate-d1.ts unfreeze",
+    "migration:prepare": "node --experimental-strip-types scripts/migrate-d1.ts prepare",
+    "migration:import": "node --experimental-strip-types scripts/migrate-d1.ts import",
+    "migration:verify": "node --experimental-strip-types scripts/migrate-d1.ts verify"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "viem": "^2.55.10"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}

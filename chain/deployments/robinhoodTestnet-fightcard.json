@@ -1,0 +1,14 @@
+{
+  "chainId": 46630,
+  "collateralDecimals": 6,
+  "collateralToken": "0xAc80194dc1aE8eF52df73e7e1864fB3C62290fe0",
+  "deployer": "0x51450Aa592a3F17D270366c4Ee2f3AE8305790Bd",
+  "feeRecipient": "0x51450Aa592a3F17D270366c4Ee2f3AE8305790Bd",
+  "fightCardCLOBAddress": "0xF04910AB1DAc2853655EeF916565D342A1b952a1",
+  "fightCardParlayAddress": "0x7f28e14DDbC07CaBE70c4B995e148618C90Aad3e",
+  "fightCardReaderAddress": "0xE368E388a24F194d734606cC69497Ddb9dcEF0E4",
+  "fightOperator": "0x51450Aa592a3F17D270366c4Ee2f3AE8305790Bd",
+  "network": "robinhoodTestnet",
+  "startBlock": 97410885,
+  "takerFeeBps": 100
+}
